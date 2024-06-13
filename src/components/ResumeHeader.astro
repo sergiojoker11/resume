@@ -1,0 +1,72 @@
+---
+import { Icon } from 'astro-icon/components';
+import type { JsonHeaderType } from '../types/resumeHeaderTypes';
+
+interface Props {
+  jsonHeader: JsonHeaderType;
+}
+
+const { jsonHeader } = Astro.props;
+
+const jsonInfo = jsonHeader.info;
+const jsonLinks = jsonHeader.links;
+
+const iconSizeInfo = 20; 
+const iconSizeSocials = 30; 
+
+const iconSizeInfo2XL = 23; 
+const iconSizeSocials2XL = 35; 
+---
+
+<div id = "resumeheader" class = "flex items-start mb-10 sm:gap-0 gap-x-10">
+  <div class = "flex-auto">
+    <h1 id = "yourName">{jsonHeader.name}</h1>
+    <h3 id = "yourTagline">{jsonHeader.tagline}</h3>
+      <!-- SMALL BREAKPOINT -->
+    <div class = "mt-5 md:hidden sm:block">
+      <div class="flex flex-row flex-wrap justify-center gap-y-2 gap-x-4">
+        {jsonInfo?.map(info => (
+          <div class="iconLabel user-info-links">
+            <Icon name={info.iconName} size={iconSizeInfo} style="margin-right: 3px"/>
+            {
+              info.optionalURL === undefined || info.optionalURL.trim().length === 0 
+              ? <div>{info.text}</div> : <a title={info.optionalURLLabel} aria-label={info.optionalURLLabel} href={info.optionalURL} class="noLinkStyle"><button>{info.text}</button></a>
+            }
+          </div>
+        ))}
+      </div>
+
+      <div class = "flex flex-row flex-wrap justify-center mt-2 gap-x-1 iconSocials">
+          {jsonLinks?.map(link => (
+              <a href={link.URL} title = {link.label} aria-label={link.label}><button><Icon name={link.iconName} size={iconSizeSocials} /></button></a>
+          ))}	
+      </div>
+    </div>
+  </div>
+
+  <!-- MEDIUM BREAKPOINT -->
+  <div class = "mt-3 hidden md:block">
+    {jsonInfo?.map(info => (
+      <div class="iconLabel user-info-links">
+        <Icon class="2xl:hidden" name={info.iconName} size={iconSizeInfo} style="margin-right: 3px"/>
+        <Icon class="md:hidden 2xl:block" name={info.iconName} size={iconSizeInfo2XL} style="margin-right: 3px"/>
+        {
+          info.optionalURL === undefined || info.optionalURL.trim().length === 0 
+          ? <div>{info.text}</div> : <a title={info.optionalURLLabel} aria-label={info.optionalURLLabel} href={info.optionalURL} class="noLinkStyle" ><button>{info.text}</button></a>
+        }
+      </div>
+    ))}	
+    <div class = "flex flex-row justify-end mt-1 iconSocials">
+        {jsonLinks?.map(link => (
+            <a href={link.URL} title = {link.label} aria-label={link.label}>
+              <button class="2xl:hidden">
+                <Icon name={link.iconName} size={iconSizeSocials} />
+              </button>
+              <button class="md:hidden 2xl:block">
+                <Icon name={link.iconName} size={iconSizeSocials2XL} />
+              </button>
+            </a>
+        ))}	
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+{
+  "name": "Sergio Martín Sánchez",
+  "tagline": "DevOps Engineer",
+  "resumeDownloadURL": "https://sergioms.dev",
+  "info": [
+    {
+      "text": "sergio.anger@gmail.com",
+      "iconName": "mdi:email",
+      "optionalURL": "mailto:sergio.anger@gmail.com",
+      "optionalURLLabel": "Email"
+    },
+    {
+      "text": "+34 687 78 32 48",
+      "iconName": "mdi:cellphone",
+      "optionalURL": "tel:+34 687 78 32 48",
+      "optionalURLLabel": "Phone"
+    },
+    {
+      "text": "Madrid, Spain",
+      "iconName": "mdi:location",
+      "optionalURL": "",
+      "optionalURLLabel": ""
+    },
+    {
+      "text": "sergiojoker11",
+      "iconName": "mdi:github",
+      "optionalURL": "https://github.com/sergiojoker11",
+      "optionalURLLabel": "GitHub profile"
+    },
+    {
+      "text": "sergio-martin-sanchez",
+      "iconName": "mdi:linkedin",
+      "optionalURL": "https://www.linkedin.com/in/sergio-martin-sanchez/",
+      "optionalURLLabel": "LinkedIn profile"
+    }
+  ],
+  "links": []
+}

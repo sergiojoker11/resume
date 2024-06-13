@@ -1,0 +1,30 @@
+---
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+import BackToTop from '../components/BackToTop.astro';
+import ResumeHeader from '../components/ResumeHeader.astro';
+import jsonHeader from "../EDIT_ME/user_info.json";
+import BaseLayout from "./BaseLayout.astro";
+---
+
+<BaseLayout>
+
+	<NavBar />
+
+	<div id = "resume-wrapper">
+		<ResumeHeader jsonHeader = {jsonHeader}/>
+		<article>
+			<slot />
+		</article>
+	</div>
+
+	<Footer />
+	<BackToTop />
+</BaseLayout>
+
+<script is:inline>
+	const codeBlocks = document.getElementsByTagName("pre");
+	for (let block of codeBlocks){
+		block.removeAttribute('tabindex')
+	}
+</script>

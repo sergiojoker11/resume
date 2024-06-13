@@ -1,0 +1,36 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<button id = "backtotop" class = "opacity-0 invisible"><Icon name = "mdi:arrow-up-thick" size={40} /></button>
+
+<script is:inline>
+  const backToTop = document.getElementById("backtotop");
+  const backToTopTransition = ["transition-all", "duration-500"]
+  const backToTopTimeout = 500
+
+  function scrollLogic() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      backToTop.classList.remove('opacity-0', 'invisible')
+      backToTop.classList.add('opacity-100')
+    } else {
+      backToTop.classList.add('opacity-0', 'invisible')
+      backToTop.classList.remove('opacity-100')
+    }
+  }
+
+  // initial state on page load/refresh
+  setTimeout(() => { backToTop.classList.add(...backToTopTransition)}, backToTopTimeout)
+  scrollLogic()
+
+  window.onscroll = () => {
+    scrollLogic()
+  }
+
+  backToTop.onclick = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+  }
+</script>

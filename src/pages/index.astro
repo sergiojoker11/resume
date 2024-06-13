@@ -1,0 +1,13 @@
+---
+import ResumeLayout from '../layouts/ResumeLayout.astro';
+const allResumeSections = await Astro.glob("../EDIT_ME/*.md");
+---
+
+<ResumeLayout>
+		{
+			allResumeSections.map((section) => (
+					<h2 class="sectionTitle" id={section.frontmatter.title}>{section.frontmatter.title}</h2>
+					<div class="section"><section.Content /></div>
+			))
+		}
+</ResumeLayout>

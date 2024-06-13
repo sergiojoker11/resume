@@ -1,0 +1,36 @@
+---
+import "../styles.css";
+import siteInfo from "../EDIT_ME/site_info.json";
+import ThemeToggler from "../components/ThemeToggler.astro"
+// ensure that URL or path ends with /
+let urlStr = Astro.url + "";
+urlStr += urlStr.endsWith("/") ? "" : "/";
+let urlPathStr = Astro.url.pathname + "";
+urlPathStr += urlPathStr.endsWith("/") ? "" : "/";
+
+const faviconPath = urlPathStr + siteInfo.faviconFile;
+const thumbnail = urlStr + siteInfo.thumbnailImg;
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta property="og:title" content={siteInfo.pageTitle} />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content={thumbnail} />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:description" content={siteInfo.pageDescription} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="viewport" content="width=device-width" />
+
+		<link rel="icon" type="image/svg+xml" href={faviconPath} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+	</head>
+	<body>
+    <slot />
+	</body>
+</html>
+<ThemeToggler />

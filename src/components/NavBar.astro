@@ -1,0 +1,59 @@
+---
+import { Icon } from 'astro-icon/components';
+import jsonHeader from "../EDIT_ME/user_info.json";
+import DropdownMenu from './DropdownMenu.astro';
+
+const iconSizeNormal = 20;
+const iconSize2XL = 25;
+const downloadLabel = "Download resume";
+const toggleLabel = "Toggle theme";
+const dropdownLabel = "Navigation";
+
+---
+<script>
+  function download() {
+    const printContents = document.getElementById('resume-wrapper')?.innerHTML as string;
+    const originalContents = document.body.innerHTML;
+    document.body.innerHTML = printContents;
+    window.print();
+    document.body.innerHTML = originalContents;
+  }
+  const downloadButton = document.querySelector('#download') as Element;
+  downloadButton.addEventListener('click', () => {
+    download();
+  });
+</script>
+<div class="pt-[1rem] px-[1rem] md:p-0">
+  <div class = "flex flex-row items-end mb-3 gap-x-2">
+    <div class="flex-auto">
+      <button id = "dropdown-button" class = "button" title={dropdownLabel} aria-label={dropdownLabel}>
+        <div class="iconLabel">
+          <div class="hidden sm:block">Jump to</div>
+          <div id = "dropdown-icon-down">
+            <Icon class = "2xl:hidden" name="mdi:arrow-down-drop" size={iconSizeNormal} />
+            <Icon class = "hidden 2xl:block" name="mdi:arrow-down-drop" size={iconSize2XL} />
+          </div>
+          <div id = "dropdown-icon-up" class = "hidden">
+            <Icon class = "2xl:hidden" name="mdi:arrow-drop-up" size={iconSizeNormal} />
+            <Icon class = "hidden 2xl:block" name="mdi:arrow-drop-up" size={iconSize2XL} />
+          </div>
+        </div>
+      </button>
+      <DropdownMenu />
+    </div>
+
+    <a title={downloadLabel} id="download" aria-label={downloadLabel}>
+      <button class = "button">
+        <div class="iconLabel">
+          <div class="hidden sm:block">Download</div>
+          <Icon class = "2xl:hidden" name="mdi:download" size={iconSizeNormal} />
+          <Icon class = "hidden 2xl:block" name="mdi:download" size={iconSize2XL} />
+        </div>
+      </button> 
+    </a>
+
+    <button title={toggleLabel} class = "button" id="themeToggle" aria-label={toggleLabel}>
+      <Icon class = "2xl:hidden" name="mdi:sun-moon-stars" size={iconSizeNormal} />
+      <Icon class = "hidden 2xl:block" name="mdi:sun-moon-stars" size={iconSize2XL} />
+    </button>
+</div>
