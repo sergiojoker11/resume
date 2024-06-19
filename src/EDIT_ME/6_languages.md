@@ -1,5 +1,5 @@
 ---
-title: 🎊 Languages
+title: 🗣️ Languages
 ---
 
 | **Spanish:** | Mother language                                                 |
