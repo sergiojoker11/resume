@@ -24,7 +24,7 @@ Debt collection company. A former member of a DevOps team of size 15.
 | --------------------- | ----------------- |
 | Costain Group Plc     | Yatton, England   |
 
-A 2 year governmental project to build a product to manage roadside devices.
+Two-year governmental project to build a product to remotely manage roadside devices.
 - First professional experience working as a Software Engineer.
 - Product consisted of a frontend app written in AngularJS + Bootstrap and a Java backend using Spring. Backend connected to roadside devices - unix virtual machines - over SSH.
  - Distributed in two flavours. A web app deployed in-house - due to client's imposition. And a desktop app with limited functionalty oriented to client's operators.

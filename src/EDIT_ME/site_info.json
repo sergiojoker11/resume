@@ -1,7 +1,7 @@
 {
   "pageTitle": "Sergio Martín Sánchez's resume",
   "pageDescription": "Site to show off technical abilities to display my own resume",
-  "faviconFile": "favicon.svg",
+  "faviconFile": "favicon.png",
   "thumbnailImg": "thumbnail.png",
   "domainName": "https://sergioms.dev",
   "basePath": "/resume"

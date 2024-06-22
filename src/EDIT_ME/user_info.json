@@ -4,6 +4,18 @@
   "resumeDownloadURL": "https://sergioms.dev",
   "info": [
     {
+      "text": "sergio-martin-sanchez",
+      "iconName": "mdi:linkedin",
+      "optionalURL": "https://www.linkedin.com/in/sergio-martin-sanchez/",
+      "optionalURLLabel": "LinkedIn profile"
+    },
+    {
+      "text": "sergiojoker11",
+      "iconName": "mdi:github",
+      "optionalURL": "https://github.com/sergiojoker11",
+      "optionalURLLabel": "GitHub profile"
+    },
+    {
       "text": "contact@sergioms.dev",
       "iconName": "mdi:email",
       "optionalURL": "mailto:contact@sergioms.dev",
@@ -13,19 +25,7 @@
       "text": "Madrid, Spain",
       "iconName": "mdi:location",
       "optionalURL": "",
-      "optionalURLLabel": ""
-    },
-    {
-      "text": "sergiojoker11",
-      "iconName": "mdi:github",
-      "optionalURL": "https://github.com/sergiojoker11",
-      "optionalURLLabel": "GitHub profile"
-    },
-    {
-      "text": "sergio-martin-sanchez",
-      "iconName": "mdi:linkedin",
-      "optionalURL": "https://www.linkedin.com/in/sergio-martin-sanchez/",
-      "optionalURLLabel": "LinkedIn profile"
+      "optionalURLLabel": "Location"
     }
   ],
   "links": []
