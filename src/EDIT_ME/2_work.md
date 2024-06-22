@@ -11,11 +11,11 @@ Debt collection company. A former member of a DevOps team of size 15.
 - Initially, I worked as a full stack software engineer picking up frontend and backend work. Because I rapidly demonstrated interest in operations, 3 years into the project, I was given a chance to pick up operations work and eventually I transitioned to it as clients signed up and the number of environments grew.
 - Platform started off as a monolith - a frontend app written in Angular (using TypeScript) and styling in Bootstrap and a backend service written in Scala using the message driven Akka toolkit (Cassandra for writes and Postgres for reads). 
 - Progresively, the platform was turned into a event sourcing microservice architecture with Kafka at the epicenter as we added features to it. Most of the services were written in Scala using cats ecosystem, http4s, kafka client libraries to name some. Some third party services such us Kafka Connect, MirrorMaker Camunda and Keycloak. Search engine, persistance and message broker as SaaS - in respective order, OpenSearch, Postgres, Cassandra and Kafka.
-- Software was distributed as docker containers, sometimes packaged in Helm Charts and orchestrated using Kubernetes. Helm was given up in for internally-developed services in the end.
+- Software was distributed as docker containers, sometimes packaged in Helm charts and orchestrated using Kubernetes. Helm was given up in for internally-developed services in the end in favour of terraform code using k8s official terraform provider.
 - CI/CD using Concourse and GitHub actions.
-- Infrastructure. Terraform and Terragrunt.
+- Infrastructure as Code. Terraform and Terragrunt.
 - Cloud provider: Google Cloud Platform.
-- Four people mainly focused on infrastructure and operations and also responsible for product CI/CD. As a highlight, once the number of environments reached 30, we made an effort to reconcile all the environments and added the concept of single platform version. At this point, we added Terragrunt to the stack.
+- Four people mainly focused on infrastructure and operations and also responsible for product CI/CD. As a remarkable milestone, once the number of environments reached 30, we made an effort to reconcile all the environments and added the concept of single platform version. At this point, we added Terragrunt to the stack.
 - Collaborated to getting ISO27001 certificate by writting control implementations and effectiveness tests and supporting CISO and auditors.
 
 ---
