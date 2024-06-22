@@ -1,5 +1,5 @@
 ---
-title: 🎓 Education
+title: 🏫 Education
 ---
 
 | **Universidad Rey Juan Carlos - Madrid, Spain** | 06/2015            |

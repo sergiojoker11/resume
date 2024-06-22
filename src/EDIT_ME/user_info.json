@@ -4,16 +4,10 @@
   "resumeDownloadURL": "https://sergioms.dev",
   "info": [
     {
-      "text": "sergio.anger@gmail.com",
+      "text": "contact@sergioms.dev",
       "iconName": "mdi:email",
-      "optionalURL": "mailto:sergio.anger@gmail.com",
+      "optionalURL": "mailto:contact@sergioms.dev",
       "optionalURLLabel": "Email"
-    },
-    {
-      "text": "+34 687 78 32 48",
-      "iconName": "mdi:cellphone",
-      "optionalURL": "tel:+34 687 78 32 48",
-      "optionalURLLabel": "Phone"
     },
     {
       "text": "Madrid, Spain",
