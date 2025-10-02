@@ -2,6 +2,24 @@
 title: 💼 Work History
 ---
 
+| **Co-Founder**                   | 12/2024 - Present |
+| -------------------------------- | ----------------- |
+| Notifycal                        | Madrid, Spain     |
+
+SaaS platform for appointment-based businesses to reduce no-shows through automated reminders.
+
+- Designed and operated **serverless cloud infrastructure** on **AWS** using **OpenTofu** for IaC and **GitHub Actions** for CI/CD pipelines.
+- Built integrations with **Google Calendar**, **Google Contacts**, multi-channel messaging (**SMS**, **email**, **WhatsApp**, **RCS**) and **Stripe** payment gateway.
+- Developed **landing page** with **Astro** and a **customer portal** with **React**, optimized for B2B acquisition and aligned with brand identity.
+- Managed full product lifecycle with co-founder: product strategy, pricing model - subscriptions + top-ups -, marketing, support and finance operations.
+- Built distributed, **event-driven architecture** using **AWS Lambda**, **SQS**, **SNS**, **DynamoDB** and **EventBridge** to handle high notification volumes.
+- Implemented automated invoicing system compliant with Spanish and European regulations.
+- Designed **onboarding flow** with **Google OAuth** authentication and interactive demo for product validation.
+
+Stack: **AWS Lambda**, **DynamoDB**, **SNS**, **SQS**, **EventBridge**, **CloudWatch**, **AWS X-Ray**, **S3**, **Terraform/OpenTofu**, **Terragrunt**, **GitHub Actions**, **TypeScript**, **React**, **TanStack Router/Query**, **Mantine**, **Tailwind CSS**, , **Stripe**, **Mailgun**, **OpenAPI**, **Zod**.
+
+---
+
 | **DevOps Engineer**  | 01/2018 - 06/2024 (**6,5 years**) |
 | -------------------- | --------------------------- |
 | Flexys Solutions Ltd | Bristol, England and Remote |
