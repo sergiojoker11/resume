@@ -266,3 +266,28 @@ strong {
 #yourTagline {
   @apply text-center md:text-left mt-5;
 }
+
+/* PRINT STYLES */
+@media print {
+  html {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Hide non-essential elements */
+  #navbar,
+  #backtotop,
+  footer {
+    display: none !important;
+  }
+
+  #resume-wrapper {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .sectionTitle {
+    break-after: avoid;
+  }
+}
