@@ -12,18 +12,46 @@ const dropdownLabel = "Navigation";
 ---
 <script>
   function download() {
-    const printContents = document.getElementById('resume-wrapper')?.innerHTML as string;
-    const originalContents = document.body.innerHTML;
-    document.body.innerHTML = printContents;
-    window.print();
-    document.body.innerHTML = originalContents;
+    const resumeContent = document.getElementById('resume-wrapper');
+    if (!resumeContent) return;
+
+    const iframe = document.createElement('iframe');
+    iframe.style.position = 'absolute';
+    iframe.style.width = '0';
+    iframe.style.height = '0';
+    iframe.style.border = 'none';
+    document.body.appendChild(iframe);
+
+    const iframeDoc = iframe.contentWindow?.document;
+    if (!iframeDoc) return;
+
+    // Copy all stylesheets
+    const styles = Array.from(document.querySelectorAll('link[rel="stylesheet"], style'))
+      .map(el => el.outerHTML)
+      .join('');
+
+    iframeDoc.open();
+    iframeDoc.write(`
+      <!DOCTYPE html>
+      <html class="${document.documentElement.className}">
+        <head>${styles}</head>
+        <body style="padding: 2rem;">${resumeContent.innerHTML}</body>
+      </html>
+    `);
+    iframeDoc.close();
+
+    iframe.contentWindow?.focus();
+    iframe.contentWindow?.print();
+
+    setTimeout(() => iframe.remove(), 1000);
   }
+
   const downloadButton = document.querySelector('#download') as Element;
   downloadButton.addEventListener('click', () => {
     download();
   });
 </script>
-<div class="pt-[1rem] px-[1rem] md:p-0">
+<div id="navbar" class="pt-[1rem] px-[1rem] md:p-0">
   <div class = "flex flex-row items-end mb-3 gap-x-2">
     <div class="flex-auto">
       <button id = "dropdown-button" class = "button" title={dropdownLabel} aria-label={dropdownLabel}>
