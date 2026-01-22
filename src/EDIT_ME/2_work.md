@@ -2,9 +2,9 @@
 title: 💼 Work History
 ---
 
-| **Co-Founder**                 | 12/2024 - Present |
-| ------------------------------ | ----------------- |
-| [notifycal.com](notifycal.com) | Madrid, Spain     |
+| **Co-Founder**                         | 12/2024 - Present |
+| -------------------------------------- | ----------------- |
+| [notifycal.com](https://notifycal.com) | Madrid, Spain     |
 
 SaaS platform for appointment-based businesses to reduce no-shows through automated reminders.
 
