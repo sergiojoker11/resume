@@ -16,6 +16,7 @@ This is an Astro-based resume website with Tailwind CSS styling. The architectur
 ### Content Management
 
 All resume content is centralized in `src/EDIT_ME/`:
+
 - `user_info.json` - Name, tagline, contact info with icons (LinkedIn, GitHub, email, location)
 - `site_info.json` - Page metadata, domain, favicon, thumbnail, and optional basePath
 - `*.md` files (1_about.md, 2_work.md, etc.) - Resume sections with frontmatter `title` field
@@ -38,6 +39,7 @@ The main page (`src/pages/index.astro`) uses `Astro.glob("../EDIT_ME/*.md")` to 
 ### Styling
 
 Tailwind CSS with custom configuration:
+
 - Custom breakpoint: `xs: 375px`
 - Custom font: Manrope (via Google Fonts)
 - Dark mode: class-based switching

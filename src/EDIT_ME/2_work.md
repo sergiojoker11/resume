@@ -2,9 +2,9 @@
 title: 💼 Work History
 ---
 
-| **Co-Founder**                   | 12/2024 - Present |
-| -------------------------------- | ----------------- |
-| [notifycal.com](notifycal.com)                        | Madrid, Spain     |
+| **Co-Founder**                 | 12/2024 - Present |
+| ------------------------------ | ----------------- |
+| [notifycal.com](notifycal.com) | Madrid, Spain     |
 
 SaaS platform for appointment-based businesses to reduce no-shows through automated reminders.
 
@@ -22,13 +22,13 @@ Stack: **AWS Lambda**, **DynamoDB**, **SNS**, **SQS**, **EventBridge**, **CloudW
 ---
 
 | **DevOps Engineer**  | 01/2018 - 06/2024 (**6,5 years**) |
-| -------------------- | --------------------------- |
-| Flexys Solutions Ltd | Bristol, England and Remote |
+| -------------------- | --------------------------------- |
+| Flexys Solutions Ltd | Bristol, England and Remote       |
 
 Debt collection company. A former member of a DevOps team of size 15.
 
 - Initially, I worked as a **full stack** software engineer picking up frontend and backend work. Because I rapidly demonstrated interest in **operations** and, 3 years into the project I was given a chance to pick up infrastructure and operations work as clients signed up and the number of environments grew. Sometime after, I was able to develop features and services end to end.
-- Platform started off as a monolith - a frontend app written in **Angular (using TypeScript)** and styling in Bootstrap and a backend service written in **Scala** using the message driven Akka toolkit (Cassandra for writes and Postgres for reads). 
+- Platform started off as a monolith - a frontend app written in **Angular (using TypeScript)** and styling in Bootstrap and a backend service written in **Scala** using the message driven Akka toolkit (Cassandra for writes and Postgres for reads).
 - Progresively, the platform was turned into a **event sourcing** microservice architecture with **Kafka** at the epicenter as we added features to it. Most of the services were written in Scala using **Cats** ecosystem, http4s, kafka client libraries to name some. Some third party services such us Kafka Connect, MirrorMaker Camunda and Keycloak. Search engine, persistance and message broker as SaaS - in respective order, **OpenSearch**, **Postgres**, **Cassandra** and **Kafka**.
 - Software was distributed as **docker** containers, sometimes packaged in Helm charts and orchestrated using **Kubernetes**. Helm was given up on for internally-developed services in the end in favour of terraform IaC using k8s official terraform provider.
 - CI/CD using **Concourse** and **GitHub actions**.
@@ -40,10 +40,11 @@ Debt collection company. A former member of a DevOps team of size 15.
 ---
 
 | **Software Engineer** | 02/2016 - 12/2017 (**almost 2 years**) |
-| --------------------- | ----------------- |
-| Costain Group Plc     | Yatton, England   |
+| --------------------- | -------------------------------------- |
+| Costain Group Plc     | Yatton, England                        |
 
 Two-year governmental project to build a product to remotely manage roadside devices.
+
 - First professional experience working as a **Software Engineer**.
 - Product consisted of a frontend app written in **AngularJS** + **Bootstrap** and a **Java** backend using **Spring**. Backend connected to roadside devices - unix virtual machines - over SSH.
- - Distributed in two flavours. A web app deployed in-house - due to project governmental nature i.e. **Highways England**. And a desktop app with limited functionalty oriented to client's operators.
+- Distributed in two flavours. A web app deployed in-house - due to project governmental nature i.e. **Highways England**. And a desktop app with limited functionalty oriented to client's operators.
