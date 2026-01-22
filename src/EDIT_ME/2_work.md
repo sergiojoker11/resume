@@ -4,17 +4,18 @@ title: 💼 Work History
 
 | **Co-Founder**                   | 12/2024 - Present |
 | -------------------------------- | ----------------- |
-| Notifycal                        | Madrid, Spain     |
+| [notifycal.com](notifycal.com)                        | Madrid, Spain     |
 
 SaaS platform for appointment-based businesses to reduce no-shows through automated reminders.
 
-- Designed and operated **serverless cloud infrastructure** on **AWS** using **OpenTofu** for IaC and **GitHub Actions** for CI/CD pipelines.
+- Designed and operated **serverless cloud infrastructure** on **AWS** using **OpenTofu** for IaC and **GitHub Actions** for CI/CD pipelines. Multi-environment setup with the ability to **spin up and tear down environments on demand**.
 - Built integrations with **Google Calendar**, **Google Contacts**, multi-channel messaging (**SMS**, **email**, **WhatsApp**, **RCS**) and **Stripe** payment gateway.
 - Developed **landing page** with **Astro** and a **customer portal** with **React**, optimized for B2B acquisition and aligned with brand identity.
-- Managed full product lifecycle with co-founder: product strategy, pricing model - subscriptions + top-ups -, marketing, support and finance operations.
-- Built distributed, **event-driven architecture** using **AWS Lambda**, **SQS**, **SNS**, **DynamoDB** and **EventBridge** to handle high notification volumes.
+- Managed full product lifecycle with co-founder: product strategy, pricing model - subscriptions + top-ups -, marketing, RRSS, support and finance operations.
+- Built distributed, **event-driven architecture** using **AWS Lambda**, **SQS**, **SNS**, **DynamoDB** and **EventBridge** to handle high notification volumes. Monitoring and alerting using **CloudWatch** and tracing using **AWS X-Ray**.
 - Implemented automated invoicing system compliant with Spanish and European regulations.
 - Designed **onboarding flow** with **Google OAuth** authentication and interactive demo for product validation.
+- Leveraged **AI-assisted development tools** (**Claude Code**, **ChatGPT**) following best practices, significantly boosting productivity and accelerating feature delivery.
 
 Stack: **AWS Lambda**, **DynamoDB**, **SNS**, **SQS**, **EventBridge**, **CloudWatch**, **AWS X-Ray**, **S3**, **Terraform/OpenTofu**, **Terragrunt**, **GitHub Actions**, **TypeScript**, **React**, **TanStack Router/Query**, **Mantine**, **Tailwind CSS**, , **Stripe**, **Mailgun**, **OpenAPI**, **Zod**.
 
@@ -44,5 +45,5 @@ Debt collection company. A former member of a DevOps team of size 15.
 
 Two-year governmental project to build a product to remotely manage roadside devices.
 - First professional experience working as a **Software Engineer**.
-- Product consisted of a frontend app written in AngularJS + Bootstrap and a **Java** backend using **Spring**. Backend connected to roadside devices - unix virtual machines - over SSH.
- - Distributed in two flavours. A web app deployed in-house - due to client's imposition. And a desktop app with limited functionalty oriented to client's operators.
+- Product consisted of a frontend app written in **AngularJS** + **Bootstrap** and a **Java** backend using **Spring**. Backend connected to roadside devices - unix virtual machines - over SSH.
+ - Distributed in two flavours. A web app deployed in-house - due to project governmental nature i.e. **Highways England**. And a desktop app with limited functionalty oriented to client's operators.

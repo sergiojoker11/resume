@@ -2,9 +2,10 @@
 title: ✨ Skills
 ---
 
-| **Programming languages:** | Scala, HCL, Bash, TypeScript, JavaScript, Java, HTML                                                          |
+| **Programming languages:** | TypeScript, Scala, HCL, Bash, JavaScript, Java, HTML                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Products:**              | Docker, Kafka, OpenSearch, Kafka Connect, Camunda, Keycloak, Postgres, Cassandra, Node, Kubernetes, BigQuery, Prometheus, Grafana |
-| **Engineering:**           | API Development and Management, Semantic Versioning, Performance tuning, microservice architecture |
-| **Tools:**                 | Google Workspace, Git, ClickUp, Confluence, Trello, sbt, maven                                                |               
+| **Cloud:**                 | AWS, Google Cloud |
+| **Products:**              | Docker, Kafka, OpenSearch, Kafka Connect, Camunda, Keycloak, Postgres, Cassandra, Node, Kubernetes, BigQuery, Prometheus, Grafana, AWS Lambda, DynamoDB, SNS, SQS, CloudWatch, AWS X-Ray, Stripe, React, Astro, Angular |
+| **Engineering:**           | API Development and Management, Semantic Versioning, Performance tuning, microservice architecture, release engineering, site reliability engineering |
+| **Tools:**                 | Google Workspace, Git, GitHub Projects, ClickUp, Confluence, Trello, sbt, maven                                                |               
 | **Soft:**                  | Critical thinking and problem-solving, leadership and mentorship, teamwork, communication, creativity                                |
