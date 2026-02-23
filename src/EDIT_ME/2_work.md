@@ -12,7 +12,8 @@ SaaS platform for appointment-based businesses to reduce no-shows through automa
 - Built integrations with **Google Calendar**, **Google Contacts**, multi-channel messaging (**SMS**, **email**, **WhatsApp**, **RCS**) and **Stripe** payment gateway.
 - Developed **landing page** with **Astro** and a **customer portal** with **React**, optimized for B2B acquisition and aligned with brand identity.
 - Managed full product lifecycle with co-founder: product strategy, pricing model - subscriptions + top-ups -, marketing, RRSS, support and finance operations.
-- Built distributed, **event-driven architecture** using **AWS Lambda**, **SQS**, **SNS**, **DynamoDB** and **EventBridge** to handle high notification volumes. Monitoring and alerting using **CloudWatch** and tracing using **AWS X-Ray**.
+- Built distributed, **event-driven architecture** using **AWS Lambda**, **SQS**, **SNS**, **DynamoDB** and **EventBridge** to handle high notification volumes.
+- Applied **Site Reliability Engineering** practices as part of co-founding responsibilities: maintained observability through metrics and dashboards (**CloudWatch**), distributed tracing (**AWS X-Ray**), and alert-based **incident detection and response** to keep the platform reliable.
 - Implemented automated invoicing system compliant with Spanish and European regulations.
 - Designed **onboarding flow** with **Google OAuth** authentication and interactive demo for product validation.
 - Leveraged **AI-assisted development tools** (**Claude Code**, **ChatGPT**) following best practices, significantly boosting productivity and accelerating feature delivery.
@@ -34,7 +35,7 @@ Debt collection company. A former member of a DevOps team of size 15.
 - CI/CD using **Concourse** and **GitHub actions**.
 - Infrastructure as Code. **Terraform** and **Terragrunt**.
 - Cloud provider: **Google Cloud Platform**.
-- Four people mainly focused on infrastructure and operations and also **responsible for product CI/CD**. As a remarkable milestone, once the number of environments reached 30, we made an effort to reconcile all the environments and added the concept of single platform version. At this point, we added Terragrunt to the stack.
+- Four people mainly focused on infrastructure and operations and also **responsible for product CI/CD**. As a remarkable milestone, once the number of environments reached 30, we made an effort to reconcile all the environments and added the concept of single platform version. At this point, we added Terragrunt to the stack. The team operated with **SRE-aligned practices**: environment reliability, incident triage, and on-call rotations were part of day-to-day responsibilities alongside infrastructure automation.
 - Collaborated to getting **ISO27001** certificate by writting control implementations and effectiveness tests and supporting CISO and auditors.
 
 ---
