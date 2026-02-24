@@ -2,4 +2,4 @@
 title: 🎊 Interests
 ---
 
-Sports especially CrossFit, boxing, football, yoga, hunting, surfing and padel. Music lover. I also like to travel abroad and to spend time with my family and friends. I enjoy a good film and sharing a healthy, tasty meal with good friends wherever in the world we might find myself.
+Sports especially CrossFit, boxing, football, yoga, hunting, surfing and padel. Music lover. I also like to travel abroad and to spend time with my family and friends. I enjoy a good film and sharing a healthy, tasty meal with good friends wherever in the world I might find myself.
