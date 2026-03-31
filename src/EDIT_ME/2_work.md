@@ -4,7 +4,7 @@ title: 💼 Work History
 
 | **Software Engineer**  | 03/2026 - Present   |
 | ---------------------- | ------------------- |
-| Aircall               | Hybrid, Madrid       |
+| [aircall.io](https://aircall.io) | Hybrid, Madrid |
 
 AI-powered customer communications platform. Contributed to the **Calls & Routing** backend team, building services on **TypeScript** and **AWS serverless** infrastructure with **AI voice capabilities**.
 
@@ -18,7 +18,7 @@ Stack: **TypeScript**, **AWS Lambda**.
 
 SaaS platform for appointment-based businesses to reduce no-shows through automated reminders.
 
-- Designed and operated **serverless cloud infrastructure** on **AWS** using **OpenTofu** for IaC and **GitHub Actions** for CI/CD pipelines. Established **release engineering** practices: **semantic versioning**, automated deployments, and multi-environment promotion strategy with the ability to **spin up and tear down environments on demand**.
+- Designed and operated **serverless cloud infrastructure** on **AWS** using **OpenTofu** for IaC and **GitHub Actions** for CI/CD pipelines. Established **release engineering** practices: **semantic versioning**, **conventional commits**, automated deployments, and multi-environment promotion strategy with the ability to **spin up and tear down environments on demand**.
 - Built integrations with **Google Calendar**, **Google Contacts**, multi-channel messaging (**SMS**, **email**, **WhatsApp**, **RCS**) and **Stripe** payment gateway.
 - Developed **landing page** with **Astro** and a **customer portal** with **React**, optimized for B2B acquisition and aligned with brand identity.
 - Managed full product lifecycle with co-founder: product strategy, pricing model - subscriptions + top-ups -, marketing, RRSS, support and finance operations.
@@ -34,7 +34,7 @@ Stack: **AWS Lambda**, **DynamoDB**, **SNS**, **SQS**, **EventBridge**, **CloudW
 
 | **DevOps Engineer**  | 01/2018 - 06/2024 (**6.5 years**) |
 | -------------------- | --------------------------------- |
-| Flexys Solutions Ltd | Bristol, England and Remote       |
+| [Flexys Solutions Ltd](https://flexys.com) | Bristol, England and Remote |
 
 Debt collection company. A former member of a DevOps team of size 15.
 
@@ -42,7 +42,7 @@ Debt collection company. A former member of a DevOps team of size 15.
 - Platform started off as a monolith - a frontend app written in **Angular (using TypeScript)** and styling in Bootstrap and a backend service written in **Scala** using the message driven Akka toolkit (Cassandra for writes and Postgres for reads).
 - Progressively, the platform was turned into an **event sourcing** microservice architecture with **Kafka** at the epicenter as we added features to it. Most of the services were written in Scala using **Cats** ecosystem, http4s, kafka client libraries to name some. Some third party services such as Kafka Connect, MirrorMaker Camunda and Keycloak. Search engine, persistence and message broker as SaaS - respectively, **OpenSearch**, **Postgres**, **Cassandra** and **Kafka**.
 - Software was distributed as **docker** containers, sometimes packaged in Helm charts and orchestrated using **Kubernetes**. Helm was given up on for internally-developed services in the end in favour of terraform IaC using k8s official terraform provider.
-- Owned and evolved **CI/CD pipelines** using **Concourse** and **GitHub Actions**, applying **release engineering** practices: **semantic versioning**, automated release notes, environment promotion workflows, and deployment gating across 30+ environments.
+- Owned and evolved **CI/CD pipelines** using **Concourse** and **GitHub Actions**, applying **release engineering** practices: **semantic versioning**, **conventional commits**, automated release notes, environment promotion workflows, and deployment gating across 30+ environments.
 - Infrastructure as Code. **Terraform** and **Terragrunt**.
 - Cloud provider: **Google Cloud Platform**.
 - Four people mainly focused on infrastructure and operations and also **responsible for product CI/CD**. As a remarkable milestone, once the number of environments reached 30, we made an effort to reconcile all the environments and added the concept of single platform version. At this point, we added Terragrunt to the stack. The team operated with **SRE-aligned practices**: environment reliability, incident triage, and on-call rotations were part of day-to-day responsibilities alongside infrastructure automation.
