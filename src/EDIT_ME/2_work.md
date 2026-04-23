@@ -8,7 +8,7 @@ title: 💼 Work History
 
 AI-powered customer communications platform. Contributed to the **Calls & Routing** backend team, building **Node.js** services on **TypeScript** and **AWS serverless** infrastructure with **AI voice capabilities**.
 
-Stack: **TypeScript**, **Node.js**, **AWS Lambda**, **GitLab**.
+Stack: **TypeScript**, **Node.js**, **AWS Lambda**, **SNS**, **SQS**, **EKS**, **Datadog**, **GitLab**.
 
 ---
 
