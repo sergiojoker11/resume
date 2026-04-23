@@ -6,7 +6,7 @@ title: 💼 Work History
 | ---------------------- | ------------------- |
 | [aircall.io](https://aircall.io) | Hybrid, Madrid |
 
-AI-powered customer communications platform. Contributing to the **Calls & Routing** platform: operating and extending **AWS serverless** infrastructure, container workloads on **EKS**, event-driven messaging with **SNS** and **SQS**, and observability with **Datadog**.
+AI-powered customer communications platform. Part of the **Calls & Routing** team, operating and extending **AWS serverless** infrastructure, container workloads on **EKS**, event-driven messaging with **SNS** and **SQS**, and observability with **Datadog**.
 
 Stack: **TypeScript**, **Node.js**, **AWS Lambda**, **SNS**, **SQS**, **EKS**, **Datadog**, **GitLab**.
 
