@@ -6,9 +6,9 @@ title: 💼 Work History
 | ---------------------- | ------------------- |
 | [aircall.io](https://aircall.io) | Hybrid, Madrid |
 
-AI-powered customer communications platform. Contributed to the **Calls & Routing** backend team, building services on **TypeScript** and **AWS serverless** infrastructure with **AI voice capabilities**.
+AI-powered customer communications platform. Contributed to the **Calls & Routing** backend team, building **Node.js** services on **TypeScript** and **AWS serverless** infrastructure with **AI voice capabilities**.
 
-Stack: **TypeScript**, **AWS Lambda**.
+Stack: **TypeScript**, **Node.js**, **AWS Lambda**.
 
 ---
 
@@ -28,7 +28,7 @@ SaaS platform for appointment-based businesses to reduce no-shows through automa
 - Designed **onboarding flow** with **Google OAuth** authentication and interactive demo for product validation.
 - Leveraged **AI-assisted development tools** (**Claude Code**, **ChatGPT**) following best practices, significantly boosting productivity and accelerating feature delivery.
 
-Stack: **AWS Lambda**, **DynamoDB**, **SNS**, **SQS**, **EventBridge**, **CloudWatch**, **AWS X-Ray**, **S3**, **Terraform/OpenTofu**, **Terragrunt**, **GitHub Actions**, **TypeScript**, **React**, **TanStack Router/Query**, **Mantine**, **Tailwind CSS**, **Stripe**, **Mailgun**, **OpenAPI**, **Zod**.
+Stack: **TypeScript**, **Node.js**, **AWS Lambda**, **DynamoDB**, **SNS**, **SQS**, **EventBridge**, **CloudWatch**, **AWS X-Ray**, **S3**, **Terraform/OpenTofu**, **Terragrunt**, **GitHub Actions**, **React**, **TanStack Router/Query**, **Mantine**, **Tailwind CSS**, **Stripe**, **Mailgun**, **OpenAPI**, **Zod**.
 
 ---
 
